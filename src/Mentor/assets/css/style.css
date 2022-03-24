@@ -8,7 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-*{border: pink 1px solid;}
+/* *{border: pink 1px solid;} */
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1366,13 +1366,25 @@ section {
 
 /* 這邊的CSS是自己做的 */
 
+#testCards{
+  display: flex;
+  /* 水平置中 */
+  justify-content: center;    
+  text-align: center;
+
+}
+
 #card {
   width: 700px;
-  border: 1px solid rgb(58, 54, 54);
+  /* border: 1px solid rgb(58, 54, 54); */
   margin: 100px;
   text-align: center;
+  
 }
 
 #startTest{
   font-size: 2rem;
 }
+
+
+
